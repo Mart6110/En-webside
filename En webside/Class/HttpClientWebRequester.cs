@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace En_webside.Class
 {
-    public class HttpClientWebRequester : IWebRequester
+    public class HttpClientWebRequester : IRequest
     {
         public async Task<string> GetResponse(string url)
         {
